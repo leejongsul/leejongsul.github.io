@@ -3,37 +3,46 @@
 * 기간: 7개월 (17.08.08 ~ 18.03.12)
 * 인원: 개발실 10명 + 기술개발 2명
 
-스타트업, 서버 직군이 제가 처음이라 초기 인프라 구축에 업무가 집중 되었으며, 기존 진행 중이던 프로젝트는 서버 연동이 필요없는 캐쥬얼 게임이였습니다.
+스타트업으로 캐주얼한 게임(광고 수익)을 한달에 하나씩 런칭하는 것이 목표인 회사로 초기 게임은 서버 연동이 없었고 서버 직군이 제가 처음이라 초기 인프라 구축에 업무가 집중 되었습니다.
 
-파이썬이라는 스크립트 언어를 실무에서 처음 사용하면서 
+입사 후 PD와 논의하여 python을 사용하였고 언어에 익숙해지기 위해 회사 홈페이지 및 Press kit 페이지와 운영툴을 개발했으며
+다음 게임에 들어가길 원하는 실시간 전투 시스템을 만들기 위한 R&D를 진행했습니다.
 
-IAP 검증이 필요하여 API를 개발하면서 차후 프로젝트에 들어갈 기술에 대한 R&D를 하였습니다.
-(예로 실시간 전투를 위한 R&D 같은...)
-
-2017년 11월 개발실 PD 변경 및 조직 개편 후 매치3 + 카지노 컨셉의 게임을 개발하다 2018년 3월에 집안 사정으로 회사를 퇴사하게 됩니다.
+2017년 11월 개발실 PD 변경 및 조직 개편이 있었고 2017년 12월부터 2018년 3월까지 매치3 + 카지노 컨셉의 게임을 개발하다 집안 사정으로 회사를 퇴사했습니다.
 
 ### Z1
-* 기간: 약 3개월 (17.12 ~ 18.03)
+* 기간: 17.12 ~ 18.03
 * 장르: 매치3 + 카지노
-* : python 2.7, flask, uwsgi, nginx, mysql, redis, mongodb
+* 기술: python 2.7, flask, uwsgi, nginx, mysql, redis, mongodb, linode
   * 최초 python 3.6, aiohttp로 구성
   * TD 합류 후 PHP, Codeigniter로 구성
-  * 서버팀장이 합류된 후 Python2.7, flask로 구성
+  * 기술개발실에서 서버팀장 합류 후 Python2.7, flask로 구성
+* 담당 업무
+  * 등록, 로그인, 인증 API
+  * 프로필 변경 API
+  * 상점 기능 API
+  * HTTP2 R&D
+
+### 실시간 서버 R&D
+* 기간: 2017.10 ~ 2017.11
+* 기술: java 8, vert.x
+
+TCP/IP, protobuf를 사용하였으며 로비와 방으로 구성을 하였습니다.
 
 ### Oh! My Castle
-* 기간: 약 1개월 (2017.09 ~ 2017.10)
+* 기간: 2017.09 ~ 2017.10
 * 장르: 클리커
-* spec: python3.6, aiohttp, gunicorn, nginx, mysql, redis
+* 기술: python3.6, aiohttp, gunicorn, nginx, mysql, redis, linode
 * 담당 업무
   1. 클라이언트 내 이벤트를 위해 시간 계산을 위한 Timestamp API
   2. IAP 검증(AOS, IOS) API
 
 ### Hompage
-* 기간: 약 3개월(2017.08 ~ 2017.11)
-* spec: python3.6, aiohttp, gunicorn, nginx, mysql, redis
+* 기간: 2017.08 ~ 2017.11
+* 기술: python 3.6, aiohttp, gunicorn, nginx, mysql, redis, firebase, bigquery, azure
 * 담당 업무
-  1. 회사 홈페이지
-  2. Press kit 운영툴 제작 및 운영
+  1. 회사 홈페이지 및 Press kit 페이지 개발
+  2. Press kit 운영툴, 통계 view 개발
 
 ## (주)와이피소프트 (폐업)
 기간:
